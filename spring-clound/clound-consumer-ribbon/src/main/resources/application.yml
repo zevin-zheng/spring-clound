@@ -1,0 +1,9 @@
+server:
+    port: 8872
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8881/eureka/,http://peer3:8883/eureka/,http://peer2:8882/eureka/
+spring:
+  application:
+    name: consumer-ribbon
