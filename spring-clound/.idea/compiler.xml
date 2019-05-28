@@ -13,6 +13,8 @@
         <module name="clound-eureka-server2" />
         <module name="clound-eureka-server3" />
         <module name="clound-product-server" />
+        <module name="clound-product-server1" />
+        <module name="clound-service-zuul" />
       </profile>
     </annotationProcessing>
   </component>

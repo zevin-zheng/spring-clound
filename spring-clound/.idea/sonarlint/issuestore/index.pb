@@ -43,3 +43,5 @@ M
 Xclound-consumer-feign/src/main/java/com/zhengwei/clound/service/FeignExampleService.java,9\a\9aef3acb03196bb658318dd156c7e46fca2c57f9
 Š
 Zclound-consumer-feign/src/main/java/com/zhengwei/clound/controller/ConsumerController.java,4\a\4a69b888de3a1aba6095426af2a993a185dcc7b0
+K
+clound-service-zuul/pom.xml,4\b\4b497a0a0437f307b3c3fb1dc4dd76bc27699064

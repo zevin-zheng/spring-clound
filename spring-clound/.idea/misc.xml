@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/clound-product-server/pom.xml" />
         <option value="$PROJECT_DIR$/clound-consumer-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/clound-consumer-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/clound-service-zuul/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,23 @@
+server:
+    port: 8874
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8881/eureka/,http://peer3:8883/eureka/,http://peer2:8882/eureka/
+spring:
+  application:
+    name: zuul-server
+zuul:
+  routes:
+  #/api-a/ 开头匹配到service-producer
+    api-a:
+      path: /api-a/**
+      serviceId: product-server
+  #/api-b/ 开头匹配到service-producer
+    api-b:
+      path: /api-b/**
+      serviceId: product-server
+  #匹配/github/直接重定向到https://github.com/
+    github:
+      path: /github/**
+      url: https://www.baidu.com/
