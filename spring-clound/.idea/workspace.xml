@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1368bb2d-e0b8-4e82-9c49-f5a41b3cdf8b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/sping-clound-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/clound-eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/clound-eureka-server2/target/" />
+    <ignored path="$PROJECT_DIR$/clound-eureka-server3/target/" />
+    <ignored path="$PROJECT_DIR$/clound-product-server/target/" />
+    <ignored path="$PROJECT_DIR$/clound-consumer-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/clound-consumer-feign/target/" />
+    <ignored path="$PROJECT_DIR$/clound-service-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/clound-product-server1/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>service-url</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sping-clound-eureka/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/sping-clound-eureka/src/main/resources/application-peer1.yml" />
+        <option value="$PROJECT_DIR$/sping-clound-eureka/src/main/resources/application-peer2.yml" />
+        <option value="$PROJECT_DIR$/sping-clound-eureka/src/main/resources/application-peer3.yml" />
+        <option value="$PROJECT_DIR$/sping-clound-eureka/src/main/java/com/zhengwei/clound/SpingCloundEurekaApplication.java" />
+        <option value="$PROJECT_DIR$/sping-clound-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sping-clound-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/clound-eureka-server/src/main/java/com/zhengwei/clound/CloundEurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/clound-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/clound-eureka-server3/pom.xml" />
+        <option value="$PROJECT_DIR$/clound-eureka-server2/pom.xml" />
+        <option value="$PROJECT_DIR$/clound-eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/clound-eureka-server2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/clound-eureka-server3/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/clound-product-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/clound-product-server/pom.xml" />
+        <option value="$PROJECT_DIR$/clound-product-server/src/main/java/com/zhengwei/clound/CloundProductServerApplication.java" />
+        <option value="$PROJECT_DIR$/clound-consumer-ribbon/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/clound-consumer-ribbon/src/main/java/com/zhengwei/clound/CloundConsumerRibbonApplication.java" />
+        <option value="$PROJECT_DIR$/clound-consumer-ribbon/src/main/java/com/zhengwei/clound/service/impl/RibbonService.java" />
+        <option value="$PROJECT_DIR$/clound-consumer-ribbon/src/main/java/com/zhengwei/clound/service/RibbonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/clound-consumer-ribbon/src/main/java/com/zhengwei/clound/service/RibbonService.java" />
+        <option value="$PROJECT_DIR$/clound-consumer-ribbon/src/main/java/com/zhengwei/clound/service/impl/RibbonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/clound-consumer-ribbon/src/main/java/com/zhengwei/clound/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/clound-consumer-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/clound-consumer-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/clound-consumer-feign/src/main/java/com/zhengwei/clound/CloundConsumerFeignApplication.java" />
+        <option value="$PROJECT_DIR$/clound-consumer-feign/src/main/java/com/zhengwei/clound/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/clound-consumer-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/clound-consumer-feign/src/main/java/com/zhengwei/clound/service/impl/FeignServiceHystrix.java" />
+        <option value="$PROJECT_DIR$/clound-consumer-feign/src/main/java/com/zhengwei/clound/service/FeignExampleService.java" />
+        <option value="$PROJECT_DIR$/clound-service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/clound-service-zuul/src/main/java/com/zhengwei/clound/CloundServiceZuulApplication.java" />
+        <option value="$PROJECT_DIR$/clound-service-zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/clound-product-server1/pom.xml" />
+        <option value="$PROJECT_DIR$/clound-product-server1/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/clound-product-server1/src/main/java/com/zhengwei/clound/controller/ProducerController.java" />
+        <option value="$PROJECT_DIR$/clound-product-server/src/main/java/com/zhengwei/clound/controller/ProducerController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloundConsumerFeign" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloundConsumerFeign" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-clound" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-clound" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="364" />
+    <option name="y" value="180" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\sport\boot-actuator-master\spring-clound" />
+      <recent name="E:\sport\boot-actuator-master\spring-clound\clound-service-zuul\src\main\resources" />
+      <recent name="E:\sport\boot-actuator-master\spring-clound\clound-consumer-feign\src\main\resources" />
+      <recent name="E:\sport\boot-actuator-master\spring-clound\clound-consumer-ribbon\src\main\resources" />
+      <recent name="E:\sport\boot-actuator-master\spring-clound\clound-product-server\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.23236775" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.CloundProductServerApplication (1)">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloundConsumerFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="clound-consumer-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhengwei.clound.CloundConsumerFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloundConsumerRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="clound-consumer-ribbon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhengwei.clound.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhengwei.clound.CloundConsumerRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloundEurekaServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="clound-eureka-server2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhengwei.clound.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhengwei.clound.CloundEurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloundEurekaServerApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="clound-eureka-server3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhengwei.clound.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhengwei.clound.CloundEurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloundEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="clound-eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhengwei.clound.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhengwei.clound.CloundEurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloundProductServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="clound-product-server1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhengwei.clound.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhengwei.clound.CloundProductServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloundProductServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="clound-product-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhengwei.clound.CloundProductServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloundServiceZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="clound-service-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhengwei.clound.CloundServiceZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CloundProductServerApplication" />
+      <item itemvalue="Spring Boot.CloundConsumerFeignApplication" />
+      <item itemvalue="Spring Boot.CloundServiceZuulApplication" />
+      <item itemvalue="Spring Boot.CloundEurekaServerApplication" />
+      <item itemvalue="Spring Boot.CloundEurekaServerApplication (1)" />
+      <item itemvalue="Spring Boot.CloundEurekaServerApplication (2)" />
+      <item itemvalue="Spring Boot.CloundConsumerRibbonApplication" />
+      <item itemvalue="Spring Boot.CloundProductServerApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CloundProductServerApplication (1)" />
+        <item itemvalue="Spring Boot.CloundEurekaServerApplication (2)" />
+        <item itemvalue="Spring Boot.CloundEurekaServerApplication (1)" />
+        <item itemvalue="Spring Boot.CloundEurekaServerApplication" />
+        <item itemvalue="Spring Boot.CloundConsumerRibbonApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1368bb2d-e0b8-4e82-9c49-f5a41b3cdf8b" name="Default" comment="" />
+      <created>1558332649867</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558332649867</updated>
+      <workItem from="1558332654857" duration="11649000" />
+      <workItem from="1558490281842" duration="1046000" />
+      <workItem from="1558495898190" duration="3390000" />
+      <workItem from="1558600008391" duration="3648000" />
+      <workItem from="1558603717295" duration="408000" />
+      <workItem from="1558604135538" duration="1606000" />
+      <workItem from="1558661667824" duration="2648000" />
+      <workItem from="1558666901472" duration="2001000" />
+      <workItem from="1558940611224" duration="2435000" />
+      <workItem from="1558947292461" duration="871000" />
+      <workItem from="1558948248798" duration="1033000" />
+      <workItem from="1558949370988" duration="1970000" />
+      <workItem from="1559010627889" duration="2804000" />
+      <workItem from="1559014023599" duration="1964000" />
+      <workItem from="1560761696957" duration="356000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="38377000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18603411" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28097346" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.1391258" side_tool="true" weight="0.19588745" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.21128319" />
+      <window_info anchor="bottom" id="SonarLint" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.8608742" visible="true" weight="0.19609967" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.2889126" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.1.RELEASE/spring-cloud-netflix-eureka-client-2.1.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaInstanceConfigBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.1.RELEASE/spring-cloud-netflix-eureka-client-2.1.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="161" lean-forward="true" selection-start-line="161" selection-end-line="161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sping-clound-eureka/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/sping-clound-eureka/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/sping-clound-eureka/src/main/resources/application-peer3.yml" />
+    <entry file="file://$PROJECT_DIR$/sping-clound-eureka/src/main/resources/application-peer2.yml" />
+    <entry file="file://$PROJECT_DIR$/sping-clound-eureka/src/main/resources/application-peer1.yml" />
+    <entry file="file://$PROJECT_DIR$/sping-clound-eureka/src/test/java/com/zhengwei/clound/SpingCloundEurekaApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/sping-clound-eureka/src/main/java/com/zhengwei/clound/SpingCloundEurekaApplication.java" />
+    <entry file="file://$PROJECT_DIR$/sping-clound-eureka/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/clound-eureka-server/src/main/resources/application-peer2.yml" />
+    <entry file="file://$PROJECT_DIR$/clound-eureka-server2/src/main/java/com/zhengwei/clound/CloundEurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-eureka-server3/src/main/java/com/zhengwei/clound/CloundEurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-eureka-server3/src/main/resources/application-peer2.yml" />
+    <entry file="file://$PROJECT_DIR$/clound-eureka-server3/src/main/resources/application-peer3.yml" />
+    <entry file="file://$PROJECT_DIR$/clound-eureka-server2/src/main/resources/application-peer2.yml" />
+    <entry file="file://$PROJECT_DIR$/clound-eureka-server/src/main/resources/application-peer1.yml" />
+    <entry file="file://$PROJECT_DIR$/clound-eureka-server3/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-consumer-ribbon/src/main/java/com/zhengwei/clound/service/impl/RibbonService.java" />
+    <entry file="file://$PROJECT_DIR$/clound-consumer-ribbon/src/main/java/com/zhengwei/clound/service/RibbonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-consumer-ribbon/src/main/java/com/zhengwei/clound/service/impl/RibbonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-consumer-ribbon/src/main/java/com/zhengwei/clound/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-consumer-ribbon/src/main/java/com/zhengwei/clound/CloundConsumerRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/2.1.5.RELEASE/spring-boot-starter-web-2.1.5.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/2.1.1.RELEASE/spring-cloud-starter-netflix-eureka-client-2.1.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-consumer-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-consumer-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="29" selection-end-line="51" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-consumer-ribbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-consumer-feign/src/main/java/com/zhengwei/clound/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-consumer-feign/src/main/java/com/zhengwei/clound/service/FeignExampleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-consumer-feign/src/main/java/com/zhengwei/clound/service/impl/FeignServiceHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-eureka-server/src/main/java/com/zhengwei/clound/CloundEurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-service-zuul/src/main/java/com/zhengwei/clound/CloundServiceZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-consumer-feign/src/main/java/com/zhengwei/clound/CloundConsumerFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-eureka-server3/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-eureka-server2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-product-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-product-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-service-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-eureka-server2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-product-server1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-service-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-product-server1/src/main/java/com/zhengwei/clound/controller/ProducerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="21" selection-start-line="21" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-product-server/src/main/java/com/zhengwei/clound/controller/ProducerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-product-server/src/main/java/com/zhengwei/clound/CloundProductServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-product-server1/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-consumer-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clound-eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -159,7 +159,8 @@ public class UserServiceImpl implements  UserService {
                     {
                         builder.startObject("userName");
                         {
-                            builder.field("type", "completion");
+                            builder.field("type", "text").
+                                    field("analyzer","ik_max_word").field("search_analyzer","ik_smart");
                         }
                         builder.endObject();
                         builder.startObject("age");
@@ -179,7 +180,8 @@ public class UserServiceImpl implements  UserService {
                         builder.endObject();
                         builder.startObject("address");
                         {
-                            builder.field("type", "completion");
+                            builder.field("type", "completion").
+                                    field("analyzer","ik_max_word").field("search_analyzer","ik_smart");
                         }
                         builder.endObject();
 //                        builder.startObject("userNameSuggest");
@@ -584,7 +586,7 @@ public class UserServiceImpl implements  UserService {
 
             sourceBuilder.size(0);
             SuggestionBuilder termSuggestionBuilder =
-                    SuggestBuilders.completionSuggestion("address").prefix(search)
+                    SuggestBuilders.completionSuggestion("address").analyzer("ik_smart").prefix(search)
                             .skipDuplicates(true);
             SuggestBuilder suggestBuilder = new SuggestBuilder();
             suggestBuilder.addSuggestion("suggest-user-address", termSuggestionBuilder);
