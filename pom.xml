@@ -32,6 +32,7 @@
         <module>clound-consumer-ribbon</module>
         <module>clound-consumer-feign</module>
         <module>clound-service-zuul</module>
+        <module>clound-elasticsearch</module>
     </modules>
 
     <dependencyManagement>
