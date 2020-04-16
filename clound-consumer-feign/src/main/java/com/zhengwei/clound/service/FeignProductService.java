@@ -1,6 +1,6 @@
 package com.zhengwei.clound.service;
 
-import com.zhengwei.clound.service.impl.FeignServiceHystrix;
+import com.zhengwei.clound.service.impl.FeignProductServiceHystrix;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @since 1.0
  * 2019/5/24 11:07
  **/
-@FeignClient(value = "product-server",fallback = FeignServiceHystrix.class)
-public interface FeignExampleService {
+@FeignClient(value = "product-server",fallback = FeignProductServiceHystrix.class)
+public interface FeignProductService {
 
     @GetMapping("hello")
     public String hello(@RequestParam(value = "name") String name);

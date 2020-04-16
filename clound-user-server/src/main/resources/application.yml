@@ -1,0 +1,19 @@
+server:
+    port: 8875
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8881/eureka/,http://peer3:8883/eureka/,http://peer2:8882/eureka/
+  instance:
+    # 设置微服务调用地址为IP优先（缺省为false）
+    prefer-ip-address: true
+    # 定义实例ID格式
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+    status-page-url: http://localhost:8875/user?name=zhengwei
+    # 心跳时间，即服务续约间隔时间（缺省为30s）
+    lease-renewal-interval-in-seconds: 5
+    # 发呆时间，即服务续约到期时间（缺省为90s）
+    lease-expiration-duration-in-seconds: 5
+spring:
+  application:
+    name: user-server

@@ -11,4 +11,10 @@ package com.zhengwei.clound.service;
 public interface RibbonService {
 
      String hello(String name);
+
+     String user(String name);
+
+     String productFallBack(String name);
+
+     String userFallBack(String name);
 }

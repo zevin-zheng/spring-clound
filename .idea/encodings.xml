@@ -10,6 +10,10 @@
     <file url="file://$PROJECT_DIR$/clound-eureka-server3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/clound-product-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/clound-product-server1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/clound-server-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/clound-service-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/clound-user-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/clound-user-server1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-product-server" charset="UTF-8" />
   </component>
 </project>

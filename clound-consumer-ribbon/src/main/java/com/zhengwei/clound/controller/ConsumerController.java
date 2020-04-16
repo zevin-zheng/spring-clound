@@ -22,7 +22,9 @@ public class ConsumerController {
 
     @GetMapping("/hello/{name}")
     public String index(@PathVariable("name") String name){
-        return ribbonService.hello(name);
+        String productResult =  ribbonService.hello(name);
+        String userResult =  ribbonService.user(name);
+        return productResult + "\\n" + userResult;
     }
 
 }

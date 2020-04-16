@@ -1,13 +1,23 @@
 server:
-    port: 8881
+  port: 8881
 eureka:
+  # 设置主机名 集群下主机名成最好不一样
   instance:
     hostname: peer1
   client:
     service-url:
       defaultZone: http://peer2:8882/eureka/,http://peer3:8883/eureka/
+    # 设置是否从注册中心获取注册信息（缺省true）
+    # 因为这是一个单点的EurekaServer，不需要同步其它EurekaServer节点的数据，故设为false
     fetch-registry: false
+    # 设置是否将自己作为客户端注册到注册中心（缺省true）
+    # 这里为不需要（查看@EnableEurekaServer注解的源码，会发现它间接用到了@EnableDiscoveryClient）
     register-with-eureka: false
+  server:
+    # 关闭自我保护
+    enable-self-preservation: false
+    # 续期时间，即扫描失效服务的间隔时间（缺省为60*1000ms）
+    eviction-interval-timer-in-ms: 5000
 spring:
   application:
     name: eureka-server-peer1

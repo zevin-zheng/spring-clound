@@ -21,6 +21,6 @@ public class ProducerController {
 
     @GetMapping("/hello")
     public String hello(@RequestParam String name) {
-        return "hello "+name+"，from "+ port+ " this is new world";
+        return "product1 "+name+"，from "+ port+ " this is new world";
     }
 }

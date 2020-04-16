@@ -21,17 +21,21 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
+        <fastjson.version>1.2.41</fastjson.version>
     </properties>
 
     <modules>
         <module>clound-eureka-server</module>
         <module>clound-eureka-server2</module>
         <module>clound-eureka-server3</module>
+        <module>clound-user-server</module>
+        <module>clound-user-server1</module>
         <module>clound-product-server</module>
         <module>clound-product-server1</module>
         <module>clound-consumer-ribbon</module>
         <module>clound-consumer-feign</module>
         <module>clound-service-zuul</module>
+        <module>clound-server-gateway</module>
         <module>clound-elasticsearch</module>
     </modules>
 
@@ -53,6 +57,15 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
         </dependency>
     </dependencies>
 

@@ -1,6 +1,7 @@
 package com.zhengwei.clound.controller;
 
-import com.zhengwei.clound.service.FeignExampleService;
+import com.zhengwei.clound.service.FeignProductService;
+import com.zhengwei.clound.service.FeignUserService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,10 +20,15 @@ import javax.annotation.Resource;
 public class ConsumerController {
 
     @Resource
-    private FeignExampleService feignExampleService;
+    private FeignProductService feignProductService;
+
+    @Resource
+    private FeignUserService feignUserService;
 
     @GetMapping("/hello/{name}")
     public String index(@PathVariable("name") String name) {
-        return feignExampleService.hello(name);
+        String productResult = feignProductService.hello(name);
+        String userResult = feignUserService.user(name);
+        return productResult + "/n" + userResult;
     }
 }

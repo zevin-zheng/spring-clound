@@ -8,6 +8,11 @@ eureka:
       defaultZone: http://peer1:8881/eureka/,http://peer3:8883/eureka/
     fetch-registry: false
     register-with-eureka: false
+  server:
+    # 关闭自我保护
+    enable-self-preservation: false
+    # 续期时间，即扫描失效服务的间隔时间（缺省为60*1000ms）
+    eviction-interval-timer-in-ms: 5000
 spring:
   application:
     name: eureka-server-peer2

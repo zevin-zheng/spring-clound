@@ -9,14 +9,21 @@ spring:
     name: zuul-server
 zuul:
   routes:
+  # 集成 eureka 可以不必配置下面路由转发规则，可以直接通过serviceId访问服务
   #/api-a/ 开头匹配到service-producer
-    api-a:
-      path: /api-a/**
+    product-service:
+      path: /productService/**
       serviceId: product-server
   #/api-b/ 开头匹配到service-producer
-    api-b:
-      path: /api-b/**
-      serviceId: product-server
+    user-service:
+      path: /userService/**
+      serviceId: user-server
+    feign-service:
+      path: /feignService/**
+      serviceId: consumer-feign
+    ribbon-service:
+      path: /ribbonService/**
+      serviceId: consumer-ribbon
   #匹配/github/直接重定向到https://github.com/
     github:
       path: /github/**

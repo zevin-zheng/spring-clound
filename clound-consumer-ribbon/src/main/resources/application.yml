@@ -4,6 +4,27 @@ eureka:
   client:
     service-url:
       defaultZone: http://peer1:8881/eureka/,http://peer3:8883/eureka/,http://peer2:8882/eureka/
+  instance:
+    # 设置微服务调用地址为IP优先（缺省为false）
+    prefer-ip-address: true
+    # 定义实例ID格式
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+    status-page-url: http://localhost:8872/hello/zhengwei
+    # 心跳时间，即服务续约间隔时间（缺省为30s）
+    lease-renewal-interval-in-seconds: 5
+    # 发呆时间，即服务续约到期时间（缺省为90s）
+    lease-expiration-duration-in-seconds: 5
 spring:
   application:
     name: consumer-ribbon
+#hystrix:
+#  command:
+#    #全局默认配置
+#    default:
+#      #熔断器相关配置
+#      circuitBreaker:
+#        enabled: true
+#        #设置在一个滚动窗口中，打开断路器的最少请求数。
+#        #  比如：如果值是20，在一个窗口内（比如10秒），收到19个请求，即使这19个请求都失败了，断路器也不会打开
+#        requestVolumeThreshold: 3
+#        errorThresholdPercentage: 50
