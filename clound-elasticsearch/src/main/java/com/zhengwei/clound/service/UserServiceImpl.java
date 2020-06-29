@@ -28,8 +28,6 @@ import org.elasticsearch.action.update.UpdateResponse;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.Response;
 import org.elasticsearch.client.RestHighLevelClient;
-import org.elasticsearch.common.xcontent.XContentBuilder;
-import org.elasticsearch.common.xcontent.XContentFactory;
 import org.elasticsearch.common.xcontent.XContentType;
 import org.elasticsearch.index.query.BoolQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
@@ -121,7 +119,7 @@ public class UserServiceImpl implements  UserService {
 //                            "    \""+ type +"\": {\n" +
 //                            "      \"properties\": {\n" +
 //                            "        \"userName\": {\n" +
-//                            "          \"type\": \"string\"\n" +
+//                            "          \"type\": \"text\"\n" +
 //                            "        },\n" +
 //                            "        \"age\": {\n" +
 //                            "          \"type\": \"integer\"\n" +
@@ -134,73 +132,70 @@ public class UserServiceImpl implements  UserService {
 //                            "          \"type\": \"text\"\n" +
 //                            "        },\n" +
 //                            "        \"address\": {\n" +
-//                            "          \"type\": \"string\"\n" +
-//                            "        },\n" +
-//                            "        \"userNameSuggest\": {\n" +
 //                            "          \"type\": \"completion\"\n" +
+//                            "          \"contexts\":[\n" +
+//                            "              {\n" +
+//                            "                 \"name\": \"cityId_tab\",\n" +
+//                            "                 \"type\": \"category\",\n" +
+//                            "                 \"path\": \"cityId\"\n" +
+//                            "              }\n     " +
+//                            "           ]"+
 //                            "        },\n" +
-//                            "        \"addressSuggest\": {\n" +
-//                            "          \"type\": \"completion\"\n" +
+//                            "        \"cityId\": {\n" +
+//                            "          \"type\": \"keyword\"\n" +
 //                            "        }\n" +
 //                            "      }\n" +
 //                            "    }\n" +
 //                            "  }",
 //                    XContentType.JSON);
-
-            // 设置索引别名
-//            request.alias(new Alias("user"));
-
-            XContentBuilder builder = XContentFactory.jsonBuilder();
-            builder.startObject();
-            {
-                builder.startObject(type);
-                {
-                    builder.startObject("properties");
-                    {
-                        builder.startObject("userName");
-                        {
-                            builder.field("type", "text").
-                                    field("analyzer","ik_max_word").field("search_analyzer","ik_smart");
-                        }
-                        builder.endObject();
-                        builder.startObject("age");
-                        {
-                            builder.field("type", "integer");
-                        }
-                        builder.endObject();
-                        builder.startObject("userId");
-                        {
-                            builder.field("type", "long");
-                        }
-                        builder.endObject();
-                        builder.startObject("phone");
-                        {
-                            builder.field("type", "text");
-                        }
-                        builder.endObject();
-                        builder.startObject("address");
-                        {
-                            builder.field("type", "completion").
-                                    field("analyzer","ik_max_word").field("search_analyzer","ik_smart");
-                        }
-                        builder.endObject();
-//                        builder.startObject("userNameSuggest");
+//
+//            // 设置索引别名
+////            request.alias(new Alias("user"));
+//
+//            XContentBuilder builder = XContentFactory.jsonBuilder();
+//            builder.startObject();
+//            {
+//                builder.startObject(type);
+//                {
+//                    builder.startObject("properties");
+//                    {
+//                        builder.startObject("userName");
 //                        {
-//                            builder.field("type", "completion");
+//                            builder.field("type", "text");
 //                        }
 //                        builder.endObject();
-//                        builder.startObject("addressSuggest");
+//                        builder.startObject("age");
 //                        {
-//                            builder.field("type", "completion");
+//                            builder.field("type", "integer");
 //                        }
 //                        builder.endObject();
-                    }
-                    builder.endObject();
-                }
-                builder.endObject();
-            }
-            builder.endObject();
-            request.mapping(type, builder);
+//                        builder.startObject("userId");
+//                        {
+//                            builder.field("type", "long");
+//                        }
+//                        builder.endObject();
+//                        builder.startObject("phone");
+//                        {
+//                            builder.field("type", "text");
+//                        }
+//                        builder.endObject();
+//                        builder.startObject("address");
+//                        {
+//                            builder.field("type", "completion").field("contexts","");
+//                        }
+//                        builder.endObject();
+//                        builder.startObject("cityId");
+//                        {
+//                            builder.field("type", "text");
+//                        }
+//                        builder.endObject();
+//                    }
+//                    builder.endObject();
+//                }
+//                builder.endObject();
+//            }
+//            builder.endObject();
+//            request.mapping(type, builder);
 
             // 5.发送请求
             // 5.1同步方式

@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @since 1.0
  * 2019/5/24 11:07
  **/
-@FeignClient(value = "product-server",fallback = FeignProductServiceHystrix.class)
+@FeignClient(value = "product-server",fallbackFactory = FeignProductServiceHystrix.class)
 public interface FeignProductService {
 
     @GetMapping("hello")

@@ -1,8 +1,9 @@
 package com.zhengwei.clound.service.impl;
 
 import com.zhengwei.clound.service.FeignProductService;
+import feign.hystrix.FallbackFactory;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * 实现feign接口用于熔断处理
@@ -13,10 +14,17 @@ import org.springframework.web.bind.annotation.RequestParam;
  * 2019/5/24 11:34
  **/
 @Component
-public class FeignProductServiceHystrix implements FeignProductService {
+@Slf4j
+public class FeignProductServiceHystrix implements FallbackFactory<FeignProductService> {
 
     @Override
-    public String hello(@RequestParam(value = "name") String name) {
-        return "sorry "+name+"，product has fail!";
+    public FeignProductService create(Throwable throwable) {
+        log.error("FeignProductService回退：", throwable);
+        return new FeignProductService() {
+            @Override
+            public String hello(String name) {
+                return "sorry "+name+"，product has fail!";
+            }
+        };
     }
 }

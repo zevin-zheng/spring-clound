@@ -9,10 +9,13 @@
         <module name="clound-product-server1" />
         <module name="clound-service-zuul" />
         <module name="clound-product-server" />
+        <module name="clound-user-server" />
         <module name="clound-eureka-server" />
         <module name="clound-eureka-server3" />
-        <module name="clound-eureka-server2" />
+        <module name="clound-server-gateway" />
+        <module name="clound-user-server1" />
         <module name="clound-consumer-feign" />
+        <module name="clound-eureka-server2" />
         <module name="clound-consumer-ribbon" />
         <module name="clound-elasticsearch" />
       </profile>
@@ -28,7 +31,10 @@
       <module name="clound-eureka-server3" options="-parameters" />
       <module name="clound-product-server" options="-parameters" />
       <module name="clound-product-server1" options="-parameters" />
+      <module name="clound-server-gateway" options="-parameters" />
       <module name="clound-service-zuul" options="-parameters" />
+      <module name="clound-user-server" options="-parameters" />
+      <module name="clound-user-server1" options="-parameters" />
     </option>
   </component>
 </project>
